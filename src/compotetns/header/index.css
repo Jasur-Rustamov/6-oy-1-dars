@@ -1,0 +1,223 @@
+.h-bg{
+  background-image: url(/public/images/png/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 639px 0;
+  background-size: 890px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 292px;
+  padding-top: 28px;
+}
+
+.hero .logo-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo-title a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+.hero .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 236px;
+}
+.hero .navbar .nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.hero .navbar .nav-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.hero .navbar .nav-list li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hero .navbar .nav-list li a:hover {
+  color: #321575;
+}
+.hero .navbar .nav-list li img {
+  width: 7px;
+  height: 4px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 49px;
+}
+
+.buttons .signBtn {
+  width: 105px;
+  height: 19px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.signBtn:hover {
+  color: rgb(30, 12, 234);
+}
+
+.buttons .startBtn {
+  width: 137px;
+  height: 52px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4f46ba;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.startBtn:hover {
+  background-color: #31279d;
+}
+
+.header {
+  margin-top: 130px;
+  padding-left: 31px;
+  display: flex;
+  gap: 35px;
+  margin-bottom: 41px;
+  height: 80vh;
+}
+
+.header-title {
+  width: 646px;
+  height: 438px;
+}
+
+.header-title h1 {
+  font-weight: 800;
+  font-size: 60px;
+  height: 222px;
+  margin-bottom: 29px;
+  letter-spacing: -3%;
+}
+
+.header-title p {
+  width: 446px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -2%;
+  color: #64607d;
+  margin-bottom: 47px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.see-btn {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+}
+
+.process {
+  padding: 15px 36px;
+  border: none;
+  border-radius: 47px;
+  background-color: #3734a9;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -2%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.process:hover {
+  background-color: #0b0952;
+}
+
+.see-btn img {
+  width: 60px;
+  height: 60px;
+}
+
+.see-btn a {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -2%;
+  color: #3734a9;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.see-btn a:hover {
+  color: #2476f2;
+}
+
+.header .form {
+  margin-top: 33px;
+  width: 356px;
+  height: 280px;
+}
+
+.header .form p {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -2%;
+  color: #3734a9;
+  margin-bottom: 22px;
+}
+
+.email input,
+.password input {
+  width: 356px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #dfe4f1;
+  margin-bottom: 24px;
+  outline-style: none;
+}
+
+.email input:placeholder-shown,
+.password input:placeholder-shown {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -2%;
+  color: #64607d;
+  padding: 21px;
+}
+
+.getStarted {
+  width: 356px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fa6f48;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.getStarted:hover {
+  background-color: #e74f25;
+}

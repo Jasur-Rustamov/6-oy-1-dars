@@ -6,7 +6,7 @@ function NextSection() {
       <div className="container">
         <section className="section3">
           <div className="card">
-            <img src="./public/images/png/light-icon.png" alt="Error" />
+            <img src="images/png/light-icon.png" alt="Error" />
             <h5>Led Ask Possible Mistress</h5>
             <p>
               Connection has put impossible own apartments boisterous. At
@@ -15,7 +15,7 @@ function NextSection() {
             </p>
           </div>
           <div className="card">
-            <img src="./public/images/png/edir-icon.png" alt="Error" />
+            <img src="images/png/edir-icon.png" alt="Error" />
             <h5>Elegance Eat Likewise</h5>
             <p>
               From they fine john he give of rich he. They age and draw mrs
@@ -24,7 +24,7 @@ function NextSection() {
             </p>
           </div>
           <div className="card">
-            <img src="./public/images/png/send-icon.png" alt="Error" />
+            <img src="images/png/send-icon.png" alt="Error" />
             <h5>Message Oram Nothing</h5>
             <p>
               Why kept very ever home mrs. Considered sympathize ten uncommonly
